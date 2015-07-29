@@ -1,6 +1,4 @@
-var koa = require('koa')
-
-var app = koa()
+var app = require('koa')()
 
 var port = process.env.PORT || 5000
 
